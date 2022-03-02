@@ -29,6 +29,7 @@ for ($row = 0; $row < 4; $row++) {
     echo "<ul>";
     for ($col = 0; $col < 3; $col++) {
       echo "<li>".$cars[$row][$col]."</li>";
+	   echo "<li>".$cars[$row][$col]."</li>";
     }
     echo "</ul>";
     echo "</div>";
